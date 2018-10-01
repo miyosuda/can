@@ -113,7 +113,7 @@ writer = MovieWriter("out.mov", (64,64), 15)
 
 v_constant = np.array([0.0005, 0.0005])
 
-stabilization_time = 100; # no-velocity time for pattern to form, ms
+stabilization_time = 100 # no-velocity time for pattern to form, ms
 
 for i in range(3000):
     # Feedforward input
